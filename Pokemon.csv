@@ -1,0 +1,387 @@
+name,dex,type,egg_groups,color,shape,hp,attack,defense,sp_attack,sp_defense,speed
+bulbasaur,1,"['grass', 'poison']","['monster', 'plant']",green,quadruped,45,49,49,65,65,45
+ivysaur,2,"['grass', 'poison']","['monster', 'plant']",green,quadruped,60,62,63,80,80,60
+venusaur,3,"['grass', 'poison']","['monster', 'plant']",green,quadruped,80,82,83,100,100,80
+charmander,4,['fire'],"['monster', 'dragon']",red,upright,39,52,43,60,50,65
+charmeleon,5,['fire'],"['monster', 'dragon']",red,upright,58,64,58,80,65,80
+charizard,6,"['fire', 'flying']","['monster', 'dragon']",red,upright,78,84,78,109,85,100
+squirtle,7,['water'],"['monster', 'water1']",blue,upright,44,48,65,50,64,43
+wartortle,8,['water'],"['monster', 'water1']",blue,upright,59,63,80,65,80,58
+blastoise,9,['water'],"['monster', 'water1']",blue,upright,79,83,100,85,105,78
+caterpie,10,['bug'],['bug'],green,armor,45,30,35,20,20,45
+metapod,11,['bug'],['bug'],green,squiggle,50,20,55,25,25,30
+butterfree,12,"['bug', 'flying']",['bug'],white,bug-wings,60,45,50,90,80,70
+weedle,13,"['bug', 'poison']",['bug'],brown,armor,40,35,30,20,20,50
+kakuna,14,"['bug', 'poison']",['bug'],yellow,squiggle,45,25,50,25,25,35
+beedrill,15,"['bug', 'poison']",['bug'],yellow,bug-wings,65,90,40,45,80,75
+pidgey,16,"['normal', 'flying']",['flying'],brown,wings,40,45,40,35,35,56
+pidgeotto,17,"['normal', 'flying']",['flying'],brown,wings,63,60,55,50,50,71
+pidgeot,18,"['normal', 'flying']",['flying'],brown,wings,83,80,75,70,70,101
+rattata,19,['normal'],['ground'],purple,quadruped,30,56,35,25,35,72
+raticate,20,['normal'],['ground'],brown,quadruped,55,81,60,50,70,97
+spearow,21,"['normal', 'flying']",['flying'],brown,wings,40,60,30,31,31,70
+fearow,22,"['normal', 'flying']",['flying'],brown,wings,65,90,65,61,61,100
+ekans,23,['poison'],"['ground', 'dragon']",purple,squiggle,35,60,44,40,54,55
+arbok,24,['poison'],"['ground', 'dragon']",purple,squiggle,60,95,69,65,79,80
+pikachu,25,['electric'],"['ground', 'fairy']",yellow,quadruped,35,55,40,50,50,90
+raichu,26,['electric'],"['ground', 'fairy']",yellow,upright,60,90,55,90,80,110
+sandshrew,27,['ground'],['ground'],yellow,upright,50,75,85,20,30,40
+sandslash,28,['ground'],['ground'],yellow,upright,75,100,110,45,55,65
+nidoran-f,29,['poison'],"['monster', 'ground']",blue,quadruped,55,47,52,40,40,41
+nidorina,30,['poison'],['no-eggs'],blue,quadruped,70,62,67,55,55,56
+nidoqueen,31,"['poison', 'ground']",['no-eggs'],blue,upright,90,92,87,75,85,76
+nidoran-m,32,['poison'],"['monster', 'ground']",purple,quadruped,46,57,40,40,40,50
+nidorino,33,['poison'],"['monster', 'ground']",purple,quadruped,61,72,57,55,55,65
+nidoking,34,"['poison', 'ground']","['monster', 'ground']",purple,upright,81,102,77,85,75,85
+clefairy,35,['fairy'],['fairy'],pink,upright,70,45,48,60,65,35
+clefable,36,['fairy'],['fairy'],pink,upright,95,70,73,95,90,60
+vulpix,37,['fire'],['ground'],brown,quadruped,38,41,40,50,65,65
+ninetales,38,['fire'],['ground'],yellow,quadruped,73,76,75,81,100,100
+jigglypuff,39,"['normal', 'fairy']",['fairy'],pink,humanoid,115,45,20,45,25,20
+wigglytuff,40,"['normal', 'fairy']",['fairy'],pink,humanoid,140,70,45,85,50,45
+zubat,41,"['poison', 'flying']",['flying'],purple,wings,40,45,35,30,40,55
+golbat,42,"['poison', 'flying']",['flying'],purple,wings,75,80,70,65,75,90
+oddish,43,"['grass', 'poison']",['plant'],blue,legs,45,50,55,75,65,30
+gloom,44,"['grass', 'poison']",['plant'],blue,humanoid,60,65,70,85,75,40
+vileplume,45,"['grass', 'poison']",['plant'],red,humanoid,75,80,85,110,90,50
+paras,46,"['bug', 'grass']","['bug', 'plant']",red,armor,35,70,55,45,55,25
+parasect,47,"['bug', 'grass']","['bug', 'plant']",red,armor,60,95,80,60,80,30
+venonat,48,"['bug', 'poison']",['bug'],purple,humanoid,60,55,50,40,55,45
+venomoth,49,"['bug', 'poison']",['bug'],purple,bug-wings,70,65,60,90,75,90
+diglett,50,['ground'],['ground'],brown,blob,10,55,25,35,45,95
+dugtrio,51,['ground'],['ground'],brown,heads,35,100,50,50,70,120
+meowth,52,['normal'],['ground'],yellow,quadruped,40,45,35,40,40,90
+persian,53,['normal'],['ground'],yellow,quadruped,65,70,60,65,65,115
+psyduck,54,['water'],"['water1', 'ground']",yellow,upright,50,52,48,65,50,55
+golduck,55,['water'],"['water1', 'ground']",blue,upright,80,82,78,95,80,85
+mankey,56,['fighting'],['ground'],brown,upright,40,80,35,35,45,70
+primeape,57,['fighting'],['ground'],brown,upright,65,105,60,60,70,95
+growlithe,58,['fire'],['ground'],brown,quadruped,55,70,45,70,50,60
+arcanine,59,['fire'],['ground'],brown,quadruped,90,110,80,100,80,95
+poliwag,60,['water'],['water1'],blue,legs,40,50,40,40,40,90
+poliwhirl,61,['water'],['water1'],blue,humanoid,65,65,65,50,50,90
+poliwrath,62,"['water', 'fighting']",['water1'],blue,humanoid,90,95,95,70,90,70
+abra,63,['psychic'],['humanshape'],brown,upright,25,20,15,105,55,90
+kadabra,64,['psychic'],['humanshape'],brown,upright,40,35,30,120,70,105
+alakazam,65,['psychic'],['humanshape'],brown,humanoid,55,50,45,135,95,120
+machop,66,['fighting'],['humanshape'],gray,upright,70,80,50,35,35,35
+machoke,67,['fighting'],['humanshape'],gray,humanoid,80,100,70,50,60,45
+machamp,68,['fighting'],['humanshape'],gray,humanoid,90,130,80,65,85,55
+bellsprout,69,"['grass', 'poison']",['plant'],green,humanoid,50,75,35,70,30,40
+weepinbell,70,"['grass', 'poison']",['plant'],green,blob,65,90,50,85,45,55
+victreebel,71,"['grass', 'poison']",['plant'],green,blob,80,105,65,100,70,70
+tentacool,72,"['water', 'poison']",['water3'],blue,tentacles,40,40,35,50,100,70
+tentacruel,73,"['water', 'poison']",['water3'],blue,tentacles,80,70,65,80,120,100
+geodude,74,"['rock', 'ground']",['mineral'],brown,arms,40,80,100,30,30,20
+graveler,75,"['rock', 'ground']",['mineral'],brown,humanoid,55,95,115,45,45,35
+golem,76,"['rock', 'ground']",['mineral'],brown,humanoid,80,120,130,55,65,45
+ponyta,77,['fire'],['ground'],yellow,quadruped,50,85,55,65,65,90
+rapidash,78,['fire'],['ground'],yellow,quadruped,65,100,70,80,80,105
+slowpoke,79,"['water', 'psychic']","['monster', 'water1']",pink,quadruped,90,65,65,40,40,15
+slowbro,80,"['water', 'psychic']","['monster', 'water1']",pink,upright,95,75,110,100,80,30
+magnemite,81,"['electric', 'steel']",['mineral'],gray,arms,25,35,70,95,55,45
+magneton,82,"['electric', 'steel']",['mineral'],gray,heads,50,60,95,120,70,70
+farfetchd,83,"['normal', 'flying']","['flying', 'ground']",brown,wings,52,90,55,58,62,60
+doduo,84,"['normal', 'flying']",['flying'],brown,legs,35,85,45,35,35,75
+dodrio,85,"['normal', 'flying']",['flying'],brown,legs,60,110,70,60,60,110
+seel,86,['water'],"['water1', 'ground']",white,fish,65,45,55,45,70,45
+dewgong,87,"['water', 'ice']","['water1', 'ground']",white,fish,90,70,80,70,95,70
+grimer,88,['poison'],['indeterminate'],purple,arms,80,80,50,40,50,25
+muk,89,['poison'],['indeterminate'],purple,arms,105,105,75,65,100,50
+shellder,90,['water'],['water3'],purple,ball,30,65,100,45,25,40
+cloyster,91,"['water', 'ice']",['water3'],purple,ball,50,95,180,85,45,70
+gastly,92,"['ghost', 'poison']",['indeterminate'],purple,ball,30,35,30,100,35,80
+haunter,93,"['ghost', 'poison']",['indeterminate'],purple,arms,45,50,45,115,55,95
+gengar,94,"['ghost', 'poison']",['indeterminate'],purple,upright,60,65,60,130,75,110
+onix,95,"['rock', 'ground']",['mineral'],gray,squiggle,35,45,160,30,45,70
+drowzee,96,['psychic'],['humanshape'],yellow,humanoid,60,48,45,43,90,42
+hypno,97,['psychic'],['humanshape'],yellow,humanoid,85,73,70,73,115,67
+krabby,98,['water'],['water3'],red,armor,30,105,90,25,25,50
+kingler,99,['water'],['water3'],red,armor,55,130,115,50,50,75
+voltorb,100,['electric'],['mineral'],red,ball,40,30,50,55,55,100
+electrode,101,['electric'],['mineral'],red,ball,60,50,70,80,80,150
+exeggcute,102,"['grass', 'psychic']",['plant'],pink,heads,60,40,80,60,45,40
+exeggutor,103,"['grass', 'psychic']",['plant'],yellow,legs,95,95,85,125,75,55
+cubone,104,['ground'],['monster'],brown,upright,50,50,95,40,50,35
+marowak,105,['ground'],['monster'],brown,upright,60,80,110,50,80,45
+hitmonlee,106,['fighting'],['humanshape'],brown,humanoid,50,120,53,35,110,87
+hitmonchan,107,['fighting'],['humanshape'],brown,humanoid,50,105,79,35,110,76
+lickitung,108,['normal'],['monster'],pink,upright,90,55,75,60,75,30
+koffing,109,['poison'],['indeterminate'],purple,ball,40,65,95,60,45,35
+weezing,110,['poison'],['indeterminate'],purple,heads,65,90,120,85,70,60
+rhyhorn,111,"['ground', 'rock']","['monster', 'ground']",gray,quadruped,80,85,95,30,30,25
+rhydon,112,"['ground', 'rock']","['monster', 'ground']",gray,upright,105,130,120,45,45,40
+chansey,113,['normal'],['fairy'],pink,upright,250,5,5,35,105,50
+tangela,114,['grass'],['plant'],blue,legs,65,55,115,100,40,60
+kangaskhan,115,['normal'],['monster'],brown,upright,105,95,80,40,80,90
+horsea,116,['water'],"['water1', 'dragon']",blue,blob,30,40,70,70,25,60
+seadra,117,['water'],"['water1', 'dragon']",blue,blob,55,65,95,95,45,85
+goldeen,118,['water'],['water2'],red,fish,45,67,60,35,50,63
+seaking,119,['water'],['water2'],red,fish,80,92,65,65,80,68
+staryu,120,['water'],['water3'],brown,blob,30,45,55,70,55,85
+starmie,121,"['water', 'psychic']",['water3'],purple,blob,60,75,85,100,85,115
+mr-mime,122,"['psychic', 'fairy']",['humanshape'],pink,humanoid,40,45,65,100,120,90
+scyther,123,"['bug', 'flying']",['bug'],green,bug-wings,70,110,80,55,80,105
+jynx,124,"['ice', 'psychic']",['humanshape'],red,humanoid,65,50,35,115,95,95
+electabuzz,125,['electric'],['humanshape'],yellow,upright,65,83,57,95,85,105
+magmar,126,['fire'],['humanshape'],red,upright,65,95,57,100,85,93
+pinsir,127,['bug'],['bug'],brown,humanoid,65,125,100,55,70,85
+tauros,128,['normal'],['ground'],brown,quadruped,75,100,95,40,70,110
+magikarp,129,['water'],"['water2', 'dragon']",red,fish,20,10,55,15,20,80
+gyarados,130,"['water', 'flying']","['water2', 'dragon']",blue,squiggle,95,125,79,60,100,81
+lapras,131,"['water', 'ice']","['monster', 'water1']",blue,fish,130,85,80,85,95,60
+ditto,132,['normal'],['ditto'],purple,ball,48,48,48,48,48,48
+eevee,133,['normal'],['ground'],brown,quadruped,55,55,50,45,65,55
+vaporeon,134,['water'],['ground'],blue,quadruped,130,65,60,110,95,65
+jolteon,135,['electric'],['ground'],yellow,quadruped,65,65,60,110,95,130
+flareon,136,['fire'],['ground'],red,quadruped,65,130,60,95,110,65
+porygon,137,['normal'],['mineral'],pink,legs,65,60,70,85,75,40
+omanyte,138,"['rock', 'water']","['water1', 'water3']",blue,tentacles,35,40,100,90,55,35
+omastar,139,"['rock', 'water']","['water1', 'water3']",blue,tentacles,70,60,125,115,70,55
+kabuto,140,"['rock', 'water']","['water1', 'water3']",brown,armor,30,80,90,55,45,55
+kabutops,141,"['rock', 'water']","['water1', 'water3']",brown,upright,60,115,105,65,70,80
+aerodactyl,142,"['rock', 'flying']",['flying'],purple,wings,80,105,65,60,75,130
+snorlax,143,['normal'],['monster'],black,humanoid,160,110,65,65,110,30
+articuno,144,"['ice', 'flying']",['no-eggs'],blue,wings,90,85,100,95,125,85
+zapdos,145,"['electric', 'flying']",['no-eggs'],yellow,wings,90,90,85,125,90,100
+moltres,146,"['fire', 'flying']",['no-eggs'],yellow,wings,90,100,90,125,85,90
+dratini,147,['dragon'],"['water1', 'dragon']",blue,squiggle,41,64,45,50,50,50
+dragonair,148,['dragon'],"['water1', 'dragon']",blue,squiggle,61,84,65,70,70,70
+dragonite,149,"['dragon', 'flying']","['water1', 'dragon']",brown,upright,91,134,95,100,100,80
+mewtwo,150,['psychic'],['no-eggs'],purple,upright,106,110,90,154,90,130
+mew,151,['psychic'],['no-eggs'],pink,upright,100,100,100,100,100,100
+chikorita,152,['grass'],"['monster', 'plant']",green,quadruped,45,49,65,49,65,45
+bayleef,153,['grass'],"['monster', 'plant']",green,quadruped,60,62,80,63,80,60
+meganium,154,['grass'],"['monster', 'plant']",green,quadruped,80,82,100,83,100,80
+cyndaquil,155,['fire'],['ground'],yellow,humanoid,39,52,43,60,50,65
+quilava,156,['fire'],['ground'],yellow,quadruped,58,64,58,80,65,80
+typhlosion,157,['fire'],['ground'],yellow,quadruped,78,84,78,109,85,100
+totodile,158,['water'],"['monster', 'water1']",blue,upright,50,65,64,44,48,43
+croconaw,159,['water'],"['monster', 'water1']",blue,upright,65,80,80,59,63,58
+feraligatr,160,['water'],"['monster', 'water1']",blue,upright,85,105,100,79,83,78
+sentret,161,['normal'],['ground'],brown,quadruped,35,46,34,35,45,20
+furret,162,['normal'],['ground'],brown,quadruped,85,76,64,45,55,90
+hoothoot,163,"['normal', 'flying']",['flying'],brown,wings,60,30,30,36,56,50
+noctowl,164,"['normal', 'flying']",['flying'],brown,wings,100,50,50,86,96,70
+ledyba,165,"['bug', 'flying']",['bug'],red,wings,40,20,30,40,80,55
+ledian,166,"['bug', 'flying']",['bug'],red,wings,55,35,50,55,110,85
+spinarak,167,"['bug', 'poison']",['bug'],green,armor,40,60,40,40,40,30
+ariados,168,"['bug', 'poison']",['bug'],red,armor,70,90,70,60,70,40
+crobat,169,"['poison', 'flying']",['flying'],purple,bug-wings,85,90,80,70,80,130
+chinchou,170,"['water', 'electric']",['water2'],blue,fish,75,38,38,56,56,67
+lanturn,171,"['water', 'electric']",['water2'],blue,fish,125,58,58,76,76,67
+pichu,172,['electric'],['no-eggs'],yellow,quadruped,20,40,15,35,35,60
+cleffa,173,['fairy'],['no-eggs'],pink,upright,50,25,28,45,55,15
+igglybuff,174,"['normal', 'fairy']",['no-eggs'],pink,humanoid,90,30,15,40,20,15
+togepi,175,['fairy'],['no-eggs'],white,humanoid,35,20,65,40,65,20
+togetic,176,"['fairy', 'flying']","['flying', 'fairy']",white,humanoid,55,40,85,80,105,40
+natu,177,"['psychic', 'flying']",['flying'],green,wings,40,50,45,70,45,70
+xatu,178,"['psychic', 'flying']",['flying'],green,wings,65,75,70,95,70,95
+mareep,179,['electric'],"['monster', 'ground']",white,quadruped,55,40,40,65,45,35
+flaaffy,180,['electric'],"['monster', 'ground']",pink,upright,70,55,55,80,60,45
+ampharos,181,['electric'],"['monster', 'ground']",yellow,upright,90,75,85,115,90,55
+bellossom,182,['grass'],['plant'],green,humanoid,75,80,95,90,100,50
+marill,183,"['water', 'fairy']","['water1', 'fairy']",blue,upright,70,20,50,20,50,40
+azumarill,184,"['water', 'fairy']","['water1', 'fairy']",blue,upright,100,50,80,60,80,50
+sudowoodo,185,['rock'],['mineral'],brown,humanoid,70,100,115,30,65,30
+politoed,186,['water'],['water1'],green,humanoid,90,75,75,90,100,70
+hoppip,187,"['grass', 'flying']","['fairy', 'plant']",pink,upright,35,35,40,35,55,50
+skiploom,188,"['grass', 'flying']","['fairy', 'plant']",green,upright,55,45,50,45,65,80
+jumpluff,189,"['grass', 'flying']","['fairy', 'plant']",blue,upright,75,55,70,55,95,110
+aipom,190,['normal'],['ground'],purple,upright,55,70,55,40,55,85
+sunkern,191,['grass'],['plant'],yellow,ball,30,30,30,30,30,30
+sunflora,192,['grass'],['plant'],yellow,humanoid,75,75,55,105,85,30
+yanma,193,"['bug', 'flying']",['bug'],red,bug-wings,65,65,45,75,45,95
+wooper,194,"['water', 'ground']","['water1', 'ground']",blue,legs,55,45,45,25,25,15
+quagsire,195,"['water', 'ground']","['water1', 'ground']",blue,upright,95,85,85,65,65,35
+espeon,196,['psychic'],['ground'],purple,quadruped,65,65,60,130,95,110
+umbreon,197,['dark'],['ground'],black,quadruped,95,65,110,60,130,65
+murkrow,198,"['dark', 'flying']",['flying'],black,wings,60,85,42,85,42,91
+slowking,199,"['water', 'psychic']","['monster', 'water1']",pink,upright,95,75,80,100,110,30
+misdreavus,200,['ghost'],['indeterminate'],gray,ball,60,60,60,85,85,85
+unown,201,['psychic'],['no-eggs'],black,ball,48,72,48,72,48,48
+wobbuffet,202,['psychic'],['indeterminate'],blue,blob,190,33,58,33,58,33
+girafarig,203,"['normal', 'psychic']",['ground'],yellow,quadruped,70,80,65,90,65,85
+pineco,204,['bug'],['bug'],gray,ball,50,65,90,35,35,15
+forretress,205,"['bug', 'steel']",['bug'],purple,ball,75,90,140,60,60,40
+dunsparce,206,['normal'],['ground'],yellow,squiggle,100,70,70,65,65,45
+gligar,207,"['ground', 'flying']",['bug'],purple,wings,65,75,105,35,65,85
+steelix,208,"['steel', 'ground']",['mineral'],gray,squiggle,75,85,200,55,65,30
+snubbull,209,['fairy'],"['ground', 'fairy']",pink,humanoid,60,80,50,40,40,30
+granbull,210,['fairy'],"['ground', 'fairy']",purple,upright,90,120,75,60,60,45
+qwilfish,211,"['water', 'poison']",['water2'],gray,fish,65,95,85,55,55,85
+scizor,212,"['bug', 'steel']",['bug'],red,bug-wings,70,130,100,55,80,65
+shuckle,213,"['bug', 'rock']",['bug'],yellow,armor,20,10,230,10,230,5
+heracross,214,"['bug', 'fighting']",['bug'],blue,humanoid,80,125,75,40,95,85
+sneasel,215,"['dark', 'ice']",['ground'],black,upright,55,95,55,35,75,115
+teddiursa,216,['normal'],['ground'],brown,upright,60,80,50,50,50,40
+ursaring,217,['normal'],['ground'],brown,upright,90,130,75,75,75,55
+slugma,218,['fire'],['indeterminate'],red,squiggle,40,40,40,70,40,20
+magcargo,219,"['fire', 'rock']",['indeterminate'],red,squiggle,60,50,120,90,80,30
+swinub,220,"['ice', 'ground']",['ground'],brown,quadruped,50,50,40,30,30,50
+piloswine,221,"['ice', 'ground']",['ground'],brown,quadruped,100,100,80,60,60,50
+corsola,222,"['water', 'rock']","['water1', 'water3']",pink,armor,65,55,95,65,95,35
+remoraid,223,['water'],"['water1', 'water2']",gray,fish,35,65,35,65,35,65
+octillery,224,['water'],"['water1', 'water2']",red,tentacles,75,105,75,105,75,45
+delibird,225,"['ice', 'flying']","['water1', 'ground']",red,wings,45,55,45,65,45,75
+mantine,226,"['water', 'flying']",['water1'],purple,wings,85,40,70,80,140,70
+skarmory,227,"['steel', 'flying']",['flying'],gray,wings,65,80,140,40,70,70
+houndour,228,"['dark', 'fire']",['ground'],black,quadruped,45,60,30,80,50,65
+houndoom,229,"['dark', 'fire']",['ground'],black,quadruped,75,90,50,110,80,95
+kingdra,230,"['water', 'dragon']","['water1', 'dragon']",blue,blob,75,95,95,95,95,85
+phanpy,231,['ground'],['ground'],blue,quadruped,90,60,60,40,40,40
+donphan,232,['ground'],['ground'],gray,quadruped,90,120,120,60,60,50
+porygon2,233,['normal'],['mineral'],red,legs,85,80,90,105,95,60
+stantler,234,['normal'],['ground'],brown,quadruped,73,95,62,85,65,85
+smeargle,235,['normal'],['ground'],white,upright,55,20,35,20,45,75
+tyrogue,236,['fighting'],['no-eggs'],purple,humanoid,35,35,35,35,35,35
+hitmontop,237,['fighting'],['humanshape'],brown,upright,50,95,95,35,110,70
+smoochum,238,"['ice', 'psychic']",['no-eggs'],pink,humanoid,45,30,15,85,65,65
+elekid,239,['electric'],['no-eggs'],yellow,humanoid,45,63,37,65,55,95
+magby,240,['fire'],['no-eggs'],red,upright,45,75,37,70,55,83
+miltank,241,['normal'],['ground'],pink,upright,95,80,105,40,70,100
+blissey,242,['normal'],['fairy'],pink,humanoid,255,10,10,75,135,55
+raikou,243,['electric'],['no-eggs'],yellow,quadruped,90,85,75,115,100,115
+entei,244,['fire'],['no-eggs'],brown,quadruped,115,115,85,90,75,100
+suicune,245,['water'],['no-eggs'],blue,quadruped,100,75,115,90,115,85
+larvitar,246,"['rock', 'ground']",['monster'],green,upright,50,64,50,45,50,41
+pupitar,247,"['rock', 'ground']",['monster'],gray,squiggle,70,84,70,65,70,51
+tyranitar,248,"['rock', 'dark']",['monster'],green,upright,100,134,110,95,100,61
+lugia,249,"['psychic', 'flying']",['no-eggs'],white,wings,106,90,130,90,154,110
+ho-oh,250,"['fire', 'flying']",['no-eggs'],red,wings,106,130,90,110,154,90
+celebi,251,"['psychic', 'grass']",['no-eggs'],green,humanoid,100,100,100,100,100,100
+treecko,252,['grass'],"['monster', 'dragon']",green,upright,40,45,35,65,55,70
+grovyle,253,['grass'],"['monster', 'dragon']",green,upright,50,65,45,85,65,95
+sceptile,254,['grass'],"['monster', 'dragon']",green,upright,70,85,65,105,85,120
+torchic,255,['fire'],['ground'],red,legs,45,60,40,70,50,45
+combusken,256,"['fire', 'fighting']",['ground'],red,upright,60,85,60,85,60,55
+blaziken,257,"['fire', 'fighting']",['ground'],red,upright,80,120,70,110,70,80
+mudkip,258,['water'],"['monster', 'water1']",blue,quadruped,50,70,50,50,50,40
+marshtomp,259,"['water', 'ground']","['monster', 'water1']",blue,upright,70,85,70,60,70,50
+swampert,260,"['water', 'ground']","['monster', 'water1']",blue,upright,100,110,90,85,90,60
+poochyena,261,['dark'],['ground'],gray,quadruped,35,55,35,30,30,35
+mightyena,262,['dark'],['ground'],gray,quadruped,70,90,70,60,60,70
+zigzagoon,263,['normal'],['ground'],brown,quadruped,38,30,41,30,41,60
+linoone,264,['normal'],['ground'],white,quadruped,78,70,61,50,61,100
+wurmple,265,['bug'],['bug'],red,armor,45,45,35,20,30,20
+silcoon,266,['bug'],['bug'],white,ball,50,35,55,25,25,15
+beautifly,267,"['bug', 'flying']",['bug'],yellow,bug-wings,60,70,50,100,50,65
+cascoon,268,['bug'],['bug'],purple,ball,50,35,55,25,25,15
+dustox,269,"['bug', 'poison']",['bug'],green,bug-wings,60,50,70,50,90,65
+lotad,270,"['water', 'grass']","['water1', 'plant']",green,armor,40,30,30,40,50,30
+lombre,271,"['water', 'grass']","['water1', 'plant']",green,humanoid,60,50,50,60,70,50
+ludicolo,272,"['water', 'grass']","['water1', 'plant']",green,humanoid,80,70,70,90,100,70
+seedot,273,['grass'],"['ground', 'plant']",brown,legs,40,40,50,30,30,30
+nuzleaf,274,"['grass', 'dark']","['ground', 'plant']",brown,humanoid,70,70,40,60,40,60
+shiftry,275,"['grass', 'dark']","['ground', 'plant']",brown,humanoid,90,100,60,90,60,80
+taillow,276,"['normal', 'flying']",['flying'],blue,wings,40,55,30,30,30,85
+swellow,277,"['normal', 'flying']",['flying'],blue,wings,60,85,60,75,50,125
+wingull,278,"['water', 'flying']","['water1', 'flying']",white,wings,40,30,30,55,30,85
+pelipper,279,"['water', 'flying']","['water1', 'flying']",yellow,wings,60,50,100,95,70,65
+ralts,280,"['psychic', 'fairy']","['humanshape', 'indeterminate']",white,humanoid,28,25,25,45,35,40
+kirlia,281,"['psychic', 'fairy']","['humanshape', 'indeterminate']",white,humanoid,38,35,35,65,55,50
+gardevoir,282,"['psychic', 'fairy']","['humanshape', 'indeterminate']",white,humanoid,68,65,65,125,115,80
+surskit,283,"['bug', 'water']","['water1', 'bug']",blue,armor,40,30,32,50,52,65
+masquerain,284,"['bug', 'flying']","['water1', 'bug']",blue,bug-wings,70,60,62,100,82,80
+shroomish,285,['grass'],"['fairy', 'plant']",brown,legs,60,40,60,40,60,35
+breloom,286,"['grass', 'fighting']","['fairy', 'plant']",green,upright,60,130,80,60,60,70
+slakoth,287,['normal'],['ground'],brown,quadruped,60,60,60,35,35,30
+vigoroth,288,['normal'],['ground'],white,upright,80,80,80,55,55,90
+slaking,289,['normal'],['ground'],brown,humanoid,150,160,100,95,65,100
+nincada,290,"['bug', 'ground']",['bug'],gray,armor,31,45,90,30,30,40
+ninjask,291,"['bug', 'flying']",['bug'],yellow,bug-wings,61,90,45,50,50,160
+shedinja,292,"['bug', 'ghost']",['mineral'],brown,blob,1,90,45,30,30,40
+whismur,293,['normal'],"['monster', 'ground']",pink,upright,64,51,23,51,23,28
+loudred,294,['normal'],"['monster', 'ground']",blue,upright,84,71,43,71,43,48
+exploud,295,['normal'],"['monster', 'ground']",blue,upright,104,91,63,91,73,68
+makuhita,296,['fighting'],['humanshape'],yellow,humanoid,72,60,30,20,30,25
+hariyama,297,['fighting'],['humanshape'],brown,humanoid,144,120,60,40,60,50
+azurill,298,"['normal', 'fairy']",['no-eggs'],blue,legs,50,20,40,20,40,20
+nosepass,299,['rock'],['mineral'],gray,humanoid,30,45,135,45,90,30
+skitty,300,['normal'],"['ground', 'fairy']",pink,quadruped,50,45,45,35,35,50
+delcatty,301,['normal'],"['ground', 'fairy']",purple,quadruped,70,65,65,55,55,90
+sableye,302,"['dark', 'ghost']",['humanshape'],purple,humanoid,50,75,75,65,65,50
+mawile,303,"['steel', 'fairy']","['ground', 'fairy']",black,humanoid,50,85,85,55,55,50
+aron,304,"['steel', 'rock']",['monster'],gray,quadruped,50,70,100,40,40,30
+lairon,305,"['steel', 'rock']",['monster'],gray,quadruped,60,90,140,50,50,40
+aggron,306,"['steel', 'rock']",['monster'],gray,upright,70,110,180,60,60,50
+meditite,307,"['fighting', 'psychic']",['humanshape'],blue,humanoid,30,40,55,40,55,60
+medicham,308,"['fighting', 'psychic']",['humanshape'],red,humanoid,60,60,75,60,75,80
+electrike,309,['electric'],['ground'],green,quadruped,40,45,40,65,40,65
+manectric,310,['electric'],['ground'],yellow,quadruped,70,75,60,105,60,105
+plusle,311,['electric'],['fairy'],yellow,upright,60,50,40,85,75,95
+minun,312,['electric'],['fairy'],yellow,upright,60,40,50,75,85,95
+volbeat,313,['bug'],"['bug', 'humanshape']",gray,upright,65,73,75,47,85,85
+illumise,314,['bug'],"['bug', 'humanshape']",purple,humanoid,65,47,75,73,85,85
+roselia,315,"['grass', 'poison']","['fairy', 'plant']",green,humanoid,50,60,45,100,80,65
+gulpin,316,['poison'],['indeterminate'],green,arms,70,43,53,43,53,40
+swalot,317,['poison'],['indeterminate'],purple,arms,100,73,83,73,83,55
+carvanha,318,"['water', 'dark']",['water2'],red,fish,45,90,20,65,20,65
+sharpedo,319,"['water', 'dark']",['water2'],blue,fish,70,120,40,95,40,95
+wailmer,320,['water'],"['ground', 'water2']",blue,fish,130,70,35,70,35,60
+wailord,321,['water'],"['ground', 'water2']",blue,fish,170,90,45,90,45,60
+numel,322,"['fire', 'ground']",['ground'],yellow,quadruped,60,60,40,65,45,35
+camerupt,323,"['fire', 'ground']",['ground'],red,quadruped,70,100,70,105,75,40
+torkoal,324,['fire'],['ground'],brown,quadruped,70,85,140,85,70,20
+spoink,325,['psychic'],['ground'],black,arms,60,25,35,70,80,60
+grumpig,326,['psychic'],['ground'],purple,upright,80,45,65,90,110,80
+spinda,327,['normal'],"['ground', 'humanshape']",brown,upright,60,60,60,60,60,60
+trapinch,328,['ground'],"['bug', 'dragon']",brown,armor,45,100,45,45,45,10
+vibrava,329,"['ground', 'dragon']","['bug', 'dragon']",green,bug-wings,50,70,50,50,50,70
+flygon,330,"['ground', 'dragon']","['bug', 'dragon']",green,wings,80,100,80,80,80,100
+cacnea,331,['grass'],"['plant', 'humanshape']",green,humanoid,50,85,40,85,40,35
+cacturne,332,"['grass', 'dark']","['plant', 'humanshape']",green,humanoid,70,115,60,115,60,55
+swablu,333,"['normal', 'flying']","['flying', 'dragon']",blue,wings,45,40,60,40,75,50
+altaria,334,"['dragon', 'flying']","['flying', 'dragon']",blue,wings,75,70,90,70,105,80
+zangoose,335,['normal'],['ground'],white,upright,73,115,60,60,60,90
+seviper,336,['poison'],"['ground', 'dragon']",black,squiggle,73,100,60,100,60,65
+lunatone,337,"['rock', 'psychic']",['mineral'],yellow,ball,90,55,65,95,85,70
+solrock,338,"['rock', 'psychic']",['mineral'],red,ball,90,95,85,55,65,70
+barboach,339,"['water', 'ground']",['water2'],gray,fish,50,48,43,46,41,60
+whiscash,340,"['water', 'ground']",['water2'],blue,fish,110,78,73,76,71,60
+corphish,341,['water'],"['water1', 'water3']",red,armor,43,80,65,50,35,35
+crawdaunt,342,"['water', 'dark']","['water1', 'water3']",red,armor,63,120,85,90,55,55
+baltoy,343,"['ground', 'psychic']",['mineral'],brown,arms,40,40,55,40,70,55
+claydol,344,"['ground', 'psychic']",['mineral'],black,arms,60,70,105,70,120,75
+lileep,345,"['rock', 'grass']",['water3'],purple,blob,66,41,77,61,87,23
+cradily,346,"['rock', 'grass']",['water3'],green,blob,86,81,97,81,107,43
+anorith,347,"['rock', 'bug']",['water3'],gray,armor,45,95,50,40,50,75
+armaldo,348,"['rock', 'bug']",['water3'],gray,upright,75,125,100,70,80,45
+feebas,349,['water'],"['water1', 'dragon']",brown,fish,20,15,20,10,55,80
+milotic,350,['water'],"['water1', 'dragon']",pink,squiggle,95,60,79,100,125,81
+castform,351,['normal'],"['fairy', 'indeterminate']",gray,ball,70,70,70,70,70,70
+kecleon,352,['normal'],['ground'],green,upright,60,90,70,60,120,40
+shuppet,353,['ghost'],['indeterminate'],black,ball,44,75,35,63,33,45
+banette,354,['ghost'],['indeterminate'],black,upright,64,115,65,83,63,65
+duskull,355,['ghost'],['indeterminate'],black,arms,20,40,90,30,90,25
+dusclops,356,['ghost'],['indeterminate'],black,humanoid,40,70,130,60,130,25
+tropius,357,"['grass', 'flying']","['monster', 'plant']",green,quadruped,99,68,83,72,87,51
+chimecho,358,['psychic'],['indeterminate'],blue,arms,75,50,80,95,90,65
+absol,359,['dark'],['ground'],white,quadruped,65,130,60,75,60,75
+wynaut,360,['psychic'],['no-eggs'],blue,upright,95,23,48,23,48,23
+snorunt,361,['ice'],"['fairy', 'mineral']",gray,humanoid,50,50,50,50,50,50
+glalie,362,['ice'],"['fairy', 'mineral']",gray,ball,80,80,80,80,80,80
+spheal,363,"['ice', 'water']","['water1', 'ground']",blue,fish,70,40,50,55,50,25
+sealeo,364,"['ice', 'water']","['water1', 'ground']",blue,fish,90,60,70,75,70,45
+walrein,365,"['ice', 'water']","['water1', 'ground']",blue,quadruped,110,80,90,95,90,65
+clamperl,366,['water'],['water1'],blue,ball,35,64,85,74,55,32
+huntail,367,['water'],['water1'],blue,squiggle,55,104,105,94,75,52
+gorebyss,368,['water'],['water1'],pink,squiggle,55,84,105,114,75,52
+relicanth,369,"['water', 'rock']","['water1', 'water2']",gray,fish,100,90,130,45,65,55
+luvdisc,370,['water'],['water2'],pink,fish,43,30,55,40,65,97
+bagon,371,['dragon'],['dragon'],blue,humanoid,45,75,60,40,30,50
+shelgon,372,['dragon'],['dragon'],white,quadruped,65,95,100,60,50,50
+salamence,373,"['dragon', 'flying']",['dragon'],blue,quadruped,95,135,80,110,80,100
+beldum,374,"['steel', 'psychic']",['mineral'],blue,blob,40,55,80,35,60,30
+metang,375,"['steel', 'psychic']",['mineral'],blue,arms,60,75,100,55,80,50
+metagross,376,"['steel', 'psychic']",['mineral'],blue,heads,80,135,130,95,90,70
+regirock,377,['rock'],['no-eggs'],brown,humanoid,80,100,200,50,100,50
+regice,378,['ice'],['no-eggs'],blue,humanoid,80,50,100,100,200,50
+registeel,379,['steel'],['no-eggs'],gray,humanoid,80,75,150,75,150,50
+latias,380,"['dragon', 'psychic']",['no-eggs'],red,wings,80,80,90,110,130,110
+latios,381,"['dragon', 'psychic']",['no-eggs'],blue,wings,80,90,80,130,110,110
+kyogre,382,['water'],['no-eggs'],blue,fish,100,100,90,150,140,90
+groudon,383,['ground'],['no-eggs'],red,upright,100,150,140,100,90,90
+rayquaza,384,"['dragon', 'flying']",['no-eggs'],green,squiggle,105,150,90,150,90,95
+jirachi,385,"['steel', 'psychic']",['no-eggs'],yellow,humanoid,100,100,100,100,100,100
+deoxys-normal,386,['psychic'],['no-eggs'],red,humanoid,50,150,50,150,50,150
