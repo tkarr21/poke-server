@@ -1,9 +1,11 @@
 import os
 from flask import Flask, send_file, request
+from flask_cors import CORS
 from io import BytesIO
 from createPoke import create 
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route("/")
 def hello_world():
