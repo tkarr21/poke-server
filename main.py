@@ -2,7 +2,6 @@ import os
 from flask import Flask, send_file, request
 from flask_cors import CORS
 from io import BytesIO
-import werkzeug
 import json
 from createPoke import create 
 from describePoke import create_description
@@ -62,7 +61,7 @@ def generate_description():
         im = Image.open(BytesIO(base64.b64decode(image_bytes)))
         # generate description
         description = create_description(model_name="models/vit-base-patch16-224-in21k-gpt2-finetuned-to-pokemon-descriptions", image_ref=im)
-        
+
         return description  
     except Exception as e:
         return {"error": f"{type(e).__name__}: {e}"}, 400

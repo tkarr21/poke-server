@@ -1,7 +1,15 @@
 from transformers import AutoImageProcessor, GPT2TokenizerFast, VisionEncoderDecoderModel
-from PIL import Image
+from PIL import Image, ImageChops
 import requests
 
+def trim(im):
+    bg = Image.new(im.mode, im.size, im.getpixel((0,0)))
+    diff = ImageChops.difference(im, bg)
+    diff = ImageChops.add(diff, diff, 2.0, -100)
+    bbox = diff.getbbox()
+    if bbox:
+        return im.crop(bbox)
+    return im
 
 def create_description(model_name: str, image_ref: Image) -> str:
     """function for performing inference on an image to text
@@ -17,6 +25,8 @@ def create_description(model_name: str, image_ref: Image) -> str:
     tokenizer = GPT2TokenizerFast.from_pretrained(model_name)
     image_processor = AutoImageProcessor.from_pretrained(model_name)
 
+    # crop border
+    image_ref = trim(image_ref)
 
     # inference on an image
     pixel_values = image_processor(image_ref.convert("RGB"), return_tensors="pt").pixel_values
@@ -32,13 +42,13 @@ def create_description(model_name: str, image_ref: Image) -> str:
 def main():
     #testing function
     model_name = "models/vit-base-patch16-224-in21k-gpt2-finetuned-to-pokemon-descriptions"
-    #url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+    url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
 
-
-    #image = Image.open('/Users/tylerkarren/poke/poke-server/test.png')
+    #image = Image.open(requests.get(url, stream=True).raw)
+    image = Image.open('/Users/tylerkarren/poke/poke-server/test.png')
     
-    #description = create_description(model_name=model_name, image_ref=image)
-
+    description = create_description(model_name=model_name, image_ref=image)
+    print(description)
     #TODO test/measure inference time
 
 
