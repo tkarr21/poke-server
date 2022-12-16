@@ -1,5 +1,6 @@
 from transformers import AutoImageProcessor, GPT2TokenizerFast, VisionEncoderDecoderModel
 from PIL import Image
+import requests
 
 
 def create_description(model_name: str, image_ref: Image) -> str:
@@ -37,7 +38,6 @@ def main():
     #image = Image.open('/Users/tylerkarren/poke/poke-server/test.png')
     
     #description = create_description(model_name=model_name, image_ref=image)
-    #print(description)
 
     #TODO test/measure inference time
 
