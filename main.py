@@ -69,6 +69,6 @@ def generate_description():
 
 
 if __name__ == "__main__":
-    app.wsgi_app = LoggingMiddleware(app.wsgi_app)
+    #app.wsgi_app = LoggingMiddleware(app.wsgi_app)
     app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080))
 )
