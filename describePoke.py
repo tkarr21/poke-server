@@ -41,7 +41,7 @@ def create_description(model_name: str, image_ref: Image) -> str:
 
 def main():
     #testing function
-    model_name = "models/vit-base-patch16-224-in21k-gpt2-finetuned-to-pokemon-descriptions-oak"
+    model_name = "models/oak"
     url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
 
     #image = Image.open(requests.get(url, stream=True).raw)
