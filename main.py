@@ -60,7 +60,7 @@ def generate_description():
         # decode bytes to image
         im = Image.open(BytesIO(base64.b64decode(image_bytes)))
         # generate description
-        description = create_description(model_name="models/vit-base-patch16-224-in21k-gpt2-finetuned-to-pokemon-descriptions", image_ref=im)
+        description = create_description(model_name="models/vit-base-patch16-224-in21k-gpt2-finetuned-to-pokemon-descriptions-oak", image_ref=im)
 
         return description  
     except Exception as e:

@@ -21,7 +21,7 @@ def create_description(model_name: str, image_ref: Image) -> str:
             description (str) Generated description
     """
     # load our fine-tuned image captioning model and corresponding tokenizer and image processor
-    model = VisionEncoderDecoderModel.from_pretrained(model_name)
+    model = VisionEncoderDecoderModel.from_pretrained(model_name, cache_dir="./models")
     tokenizer = GPT2TokenizerFast.from_pretrained(model_name)
     image_processor = AutoImageProcessor.from_pretrained(model_name)
 
@@ -41,7 +41,7 @@ def create_description(model_name: str, image_ref: Image) -> str:
 
 def main():
     #testing function
-    model_name = "models/vit-base-patch16-224-in21k-gpt2-finetuned-to-pokemon-descriptions"
+    model_name = "models/vit-base-patch16-224-in21k-gpt2-finetuned-to-pokemon-descriptions-oak"
     url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
 
     #image = Image.open(requests.get(url, stream=True).raw)
