@@ -162,13 +162,11 @@ class Arceus:
         for part in parts:
             if part == 'head':
                 egg_group = self.get_egg_group(target['type'])
-                print(f'head egg_group {egg_group}')
                 head_donor = self.get_head(target, egg_group)
                 appendages[part] = f'assets/head/{head_donor}.png'
                 anchors[part] = self.head_json[str(head_donor)]
             if part == 'tail':
                 egg_group = self.get_egg_group(target['type'])
-                print(f'tail egg_group {egg_group}')
                 appendages[part] = f'assets/tail/{self.get_tail(target, egg_group)}.png'
             if 'arm' in part:
                 num_arms += 1
@@ -181,7 +179,6 @@ class Arceus:
 
         if num_arms:
             egg_group = self.get_egg_group(target['type'])
-            print(f'arms egg_group {egg_group}')
             arm_donor = self.select_limb_donor(
                 target, egg_group, num_arms, limb='arm')
 
@@ -193,7 +190,6 @@ class Arceus:
 
         if num_legs:
             egg_group = self.get_egg_group(target['type'])
-            print(f'legs egg_group {egg_group}')
             leg_donor = self.select_limb_donor(
                 target, egg_group, num_legs, limb='leg')
 
@@ -207,7 +203,6 @@ class Arceus:
 
         if num_wings:
             egg_group = self.get_egg_group(target['type'])
-            print(f'wings egg_group {egg_group}')
             wing_donor = self.select_limb_donor(
                 target, egg_group, num_wings, limb='wing')
 
@@ -219,7 +214,6 @@ class Arceus:
 
         if num_fins:
             egg_group = self.get_egg_group(target['type'])
-            print(f'fins egg_group {egg_group}')
             fin_donor = self.select_limb_donor(
                 target, egg_group, num_fins, limb='fin')
 
@@ -257,8 +251,8 @@ class Arceus:
         appendage_assets, appendage_anchors = self.get_appendages(
             target, required_parts)
 
-        #print(f'assets/body/{body_template}.png')
-        #print(json.dumps(appendage_assets, indent=4))
+        print(f'assets/body/{body_template}.png')
+        print(json.dumps(appendage_assets, indent=4))
 
         new_poke = collage(f'assets/body/{body_template}.png',
                            self.body_json[shape][str(body_template)], appendage_assets, appendage_anchors)
@@ -276,15 +270,11 @@ def create(hp, attack, defense, sp_att, sp_def, speed, type):
     return arceus.create_poke(target, k)
 
 def main():
-    arceus = Arceus()
-    # values = [75, 86, 68, 31, 42, 91]
-    # target_type = 'fire'
-    # values = [200, 120, 180, 100, 185, 110]
-    # target_type = 'electric'
-    #values = [10, 150, 25, 154, 20, 50]
-    #target_type = 'fire'
-    #values = [220, 80, 200, 55, 210, 40]
-    #target_type = 'normal'
+
+    # values = [75, 86, 68, 31, 42, 91, 'fire']
+    # values = [200, 120, 180, 100, 185, 110, 'electric']
+    # values = [10, 150, 25, 154, 20, 50, 'fire']
+    # values = [220, 80, 200, 55, 210, 40, 'normal']
 
     # input ranges
     # hp            1 - 255
@@ -295,15 +285,12 @@ def main():
     # speed         5 - 160
 
     # inputs
-    stats = ['hp', 'attack', 'defense', 'sp_attack', 'sp_defense', 'speed']
-    values = [85, 45, 63, 54, 40, 90]
-    target_type = 'electric'
-
-    target = {stat: values[i] for i, stat in enumerate(stats)}
-    target['type'] = target_type
-    k = 5
-
-    arceus.create_poke(target, k)
+    # stats = ['hp', 'attack', 'defense', 'sp_attack', 'sp_defense', 'speed']
+    # values = [85, 45, 63, 54, 40, 90, 'electric']
+    
+    # hp, attack, defense, sp_att, sp_def, speed, type
+    stats = [75, 86, 68, 31, 42, 91, 'fire']
+    create(*stats)
 
 
 if __name__ == '__main__':
