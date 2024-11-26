@@ -5,7 +5,7 @@ filelock==3.8.2
 Flask==2.2.5
 Flask-Cors==4.0.2
 gunicorn==20.1.0
-huggingface-hub==0.19.3
+huggingface-hub==0.23.2
 idna==3.4
 importlib-metadata==4.11.3
 itsdangerous==2.1.2
@@ -21,10 +21,10 @@ PyYAML==6.0
 regex==2022.10.31
 requests==2.28.1
 six==1.16.0
-tokenizers==0.14
+tokenizers==0.20.4
 torch==1.13.1
 tqdm==4.64.1
-transformers==4.36.0
+transformers==4.46.3
 typing_extensions==4.4.0
 urllib3==1.26.13
 Werkzeug==2.2.3
